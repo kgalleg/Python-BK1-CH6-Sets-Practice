@@ -27,6 +27,12 @@ print(showroom)
 
 # Using update(), add two more car models to your showroom with another set.
 
+add_to_showroom = {'Cooper', 'Xterra'}
 
+showroom.update(add_to_showroom)
+print("new showroom", showroom)
 
 # You've sold one of your cars. Remove it from the set with the discard() method.
+showroom.discard("Cooper")
+print("sold cooper", showroom)
+
